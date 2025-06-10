@@ -99,7 +99,7 @@ import { createElement } from "react";
 import { createRoot } from "react-dom/client"
 
 function MyheadLine() {
-  return <h3 className='head'>Fun fuct about react </h3>
+  return <h3 className='text-red-100'>Fun fuct about react </h3>
 }
 
 function MylistLine() {
