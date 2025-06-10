@@ -2,7 +2,7 @@
 // import { createRoot } from 'react-dom/client'
 
 // import App from './App.jsx'
-//  import './index.css'
+  import './index.css'
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
 //     <App />
@@ -93,31 +93,33 @@
 
 //-------------------project simple-------------------
 
- import './index.css'
+//  import './index.css'
 
-import { createElement } from "react";
-import { createRoot } from "react-dom/client"
+// import { createElement } from "react";
+// import { createRoot } from "react-dom/client"
 
-function MyheadLine() {
-  return <h3 className='text-red-100'>Fun fuct about react </h3>
-}
+// function MyheadLine() {
+//   return <h3 className='text-red-100'>Fun fuct about react </h3>
+// }
 
-function MylistLine() {
-  return (
-    <ul>
-      <li> lorem ipsum dolor amet</li>
-      <li> lorem ipsum dolor amet</li>
-      <li> lorem ipsum dolor amet</li>
-      <li> lorem ipsum dolor amet</li>
-    </ul>
-  )
-}
+// function MylistLine() {
+//   return (
+//     <ul>
+//       <li> lorem ipsum dolor amet</li>
+//       <li> lorem ipsum dolor amet</li>
+//       <li> lorem ipsum dolor amet</li>
+//       <li> lorem ipsum dolor amet</li>
+//     </ul>
+//   )
+// }
 
-const root = createRoot(document.getElementById("root"))
-root.render(
-  <div>
-    <img src="src\assets\react.svg" alt="" srcset="" />
-    <MyheadLine />
-    <MylistLine />
-  </div>
-)
+// const root = createRoot(document.getElementById("root"))
+// root.render(
+//   <div>
+//     <img src="src\assets\react.svg" className=''  alt="" srcset="" />
+//     <MyheadLine />
+//     <MylistLine />
+//   </div>
+// )
+
+//  
