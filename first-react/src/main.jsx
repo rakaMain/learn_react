@@ -2,7 +2,7 @@
 // import { createRoot } from 'react-dom/client'
 
 // import App from './App.jsx'
-  import './index.css'
+import './index.css'
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
 //     <App />
@@ -162,6 +162,8 @@
 // )
 
 
+
+
 //--------------------------- costum component chalange2
 
 // import { createElement } from "react";
@@ -224,22 +226,45 @@
 
 // ----------------fragment utntuk merapihkan div yyanng membungkus
 
+// import { createElement } from "react";
+// import { createRoot } from "react-dom/client"
+// import { Fragment  } from 'react';
+
+// function HeadMiLine(){
+//   return (
+//     <>
+//         <header><p>thi header</p></header>
+//         <main><h1>Halo</h1><p>Lorem, ipsum dolor sit amet co</p></main>
+//         <footer><p>@ 2035 copyright </p></footer>
+//     </>
+//   )
+// }
+
+// const root = createRoot(document.getElementById("root"))
+
+// root.render(
+//   HeadMiLine()
+// )
+//---------------------------day3
+
+
 import { createElement } from "react";
 import { createRoot } from "react-dom/client"
-import { Fragment  } from 'react';
+import MyHead from './header';
+import MyBody from './div';
 
-function HeadMiLine(){
+
+
+function MyCodeLine(){
   return (
     <>
-        <header><p>thi header</p></header>
-        <main><h1>Halo</h1><p>Lorem, ipsum dolor sit amet co</p></main>
-        <footer><p>@ 2035 copyright </p></footer>
+      <MyHead />
+      <MyBody />
     </>
   )
 }
 
 const root = createRoot(document.getElementById("root"))
-
 root.render(
-  HeadMiLine()
+  MyCodeLine()
 )
