@@ -6,3 +6,6 @@ section 1
 4. costum components
 5. styling
 
+secion 2 data-driven
+
+1. props > menambahkan parameter seperti rest api > passing data
