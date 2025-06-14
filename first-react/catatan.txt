@@ -9,3 +9,70 @@ section 1
 secion 2 data-driven
 
 1. props > menambahkan parameter seperti rest api > passing data
+
+
+
+
+
+-------------format database
+
+Berikut adalah informasi singkat untuk masing-masing anime yang kamu minta:
+
+---
+
+### 1. **Dragon Ball (ドラゴンボール)**
+
+* **Tanggal Rilis:** 26 Februari 1986 (anime pertama)
+* **Deskripsi Singkat/Sinopsis:**
+  Petualangan Goku dimulai saat ia mencari bola naga yang dapat mengabulkan permintaan. Pertarungan demi pertarungan, ia tumbuh menjadi salah satu petarung terkuat di alam semesta.
+* **Pembuat Manga:** Akira Toriyama
+* **Studio Anime:** Toei Animation
+* **Rating:** 8.0 (MyAnimeList)
+
+---
+
+### 2. **One Piece (ワンピース)**
+
+* **Tanggal Rilis:** 20 Oktober 1999
+* **Deskripsi Singkat/Sinopsis:**
+  Monkey D. Luffy berlayar untuk menjadi Raja Bajak Laut, mencari harta karun legendaris “One Piece”, sambil membentuk kru dan menghadapi berbagai musuh kuat.
+* **Pembuat Manga:** Eiichiro Oda
+* **Studio Anime:** Toei Animation
+* **Rating:** 8.7 (MyAnimeList)
+
+---
+
+### 3. **Black Clover (ブラッククローバー)**
+
+* **Tanggal Rilis:** 3 Oktober 2017
+* **Deskripsi Singkat/Sinopsis:**
+  Di dunia sihir, Asta adalah anak tanpa kekuatan sihir, tapi bermimpi menjadi Kaisar Sihir. Bersama saingannya, Yuno, ia bertarung melawan kekuatan gelap.
+* **Pembuat Manga:** Yūki Tabata
+* **Studio Anime:** Studio Pierrot
+* **Rating:** 8.1 (MyAnimeList)
+
+---
+
+### 4. **Sakamoto Days (サカモトデイズ)** *(Catatan: Belum tayang anime per Juni 2025)*
+
+* **Tanggal Rilis Anime:** *Belum dirilis — diumumkan akan tayang pada tahun 2025*
+* **Deskripsi Singkat/Sinopsis:**
+  Sakamoto, mantan pembunuh bayaran legendaris, kini hidup damai sebagai pemilik toko. Namun, masa lalunya terus membayanginya dan memaksanya kembali beraksi.
+* **Pembuat Manga:** Yuto Suzuki
+* **Studio Anime:** TMS Entertainment (diumumkan)
+* **Rating Manga:** 8.3 (MyAnimeList)
+
+---
+
+### 5. **Fire Force (炎炎ノ消防隊, En'en no Shōbōtai)**
+
+* **Tanggal Rilis:** 6 Juli 2019
+* **Deskripsi Singkat/Sinopsis:**
+  Shinra Kusakabe bergabung dengan pasukan pemadam khusus untuk melawan "Infernals"—manusia yang berubah menjadi api—dan mengungkap kebenaran di balik kekuatannya.
+* **Pembuat Manga:** Atsushi Ōkubo
+* **Studio Anime:** David Production
+* **Rating:** 7.7 (MyAnimeList)
+
+---
+
+Kalau kamu ingin dibuatkan dalam format gambar infografik atau post media sosial, tinggal beri tahu ya!

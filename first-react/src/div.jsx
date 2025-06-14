@@ -2,13 +2,16 @@
 export default function MyCardy(props){
   return(
     <>
-      <div className="relative w-[350px] mx-auto mt-3  h-40 flex gap-x-2" id="card">
-        <div className=" flex-1/4 me-2 bg-amber-400 rounded-xl"></div>
+      <div className="relative w-[300px] overflow-hidden ms-3 mt-4 shadow-md rounded-2xl h-40 flex gap-x-2 " id="card">
+        <div className=" overflow-hidden flex-1/4 me-2 bg-amber-400 rounded-xl shadow-md ">
+          <img src={props.img} alt="" srcset="" className=" relative m-auto mt-1 scale-110 "/>
+        </div>
         <div className="relative flex-1/2  flex flex-col h-full  py-4 text-black">
-            <p className=" font-semibold text-[10px]">JAPAN <span className=" text-gray-500  opacity-70 underline ms-2">see on google maps</span> </p>
-            <p className=" font-extrabold text-3xl mb-3">JUDUL</p>
-            <p className=" font-bold text-[10px]">12 Jan 2021 - 2024 Jan 2021</p>
-            <p className="text-[8px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat sit officiis asperiores modi cupiditate dolor iste temporibus et nesciunt, est, id aliquam consequatur voluptate, maiores tempore magni facere minima! Id!</p>
+            <p className=" font-semibold text-[8px]">{props.kanji} <span className=" text-gray-500  opacity-70 underline ms-2">see on MyAnimeList</span> </p>
+            <p className=" font-extrabold text-xl mb-3">{props.nama}</p>
+            <p className=" font-bold text-[10px]">{props.date}</p>
+            <p className="text-[8px] text-justify me-5">{props.desk}</p>
+            <p className=" font-semibold mt-1 text-[8px]">{props.mangaka} <span className=" text-gray-500  ms-2">{props.rating}</span> </p>
         </div>
       </div>
     </>
