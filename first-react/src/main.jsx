@@ -2,6 +2,7 @@ import { createRoot } from "react-dom/client"
 import MyHead from './header';
 import MyCard from './div';
 import './index.css'
+import "remixicon/fonts/remixicon.css";
 
 
 function Mycode(){

@@ -1,7 +1,11 @@
 @import "tailwindcss";
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/700.css";
+
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
