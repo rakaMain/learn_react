@@ -2,9 +2,9 @@
 export default function MyCardy(props){
   return(
     <>
-      <div className="relative w-[300px] overflow-hidden ms-3 mt-4 shadow-md rounded-2xl h-40 flex gap-x-2 " id="card">
-        <div className=" overflow-hidden flex-1/4 me-2 bg-amber-400 rounded-xl shadow-md ">
-          <img src={props.img} alt="" srcset="" className=" relative m-auto mt-1 scale-110 "/>
+      <div className=" hover:scale-105 transition relative w-[300px] bg-amber-100  overflow-hidden mt-4 shadow-md rounded-2xl h-42 flex gap-x-2 " id="card">
+        <div className=" overflow-hidden flex-1/4 me-2 bg-amber-400 rounded-s-xl shadow-md ">
+          <img src={props.img} alt="" srcset="" className=" relative m-auto mt-2 scale-115 "/>
         </div>
         <div className="relative flex-1/2  flex flex-col h-full  py-4 text-black">
             <p className=" font-semibold text-[8px]">{props.kanji} <span className=" text-gray-500  opacity-70 underline ms-2">see on MyAnimeList</span> </p>

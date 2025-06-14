@@ -9,7 +9,7 @@ function Mycode(){
   return(
     <>
       <MyHead />
-      <div className=" relative flex flex-wrap">
+      <div className=" relative justify-around ms-1 flex flex-wrap">
         <MyCard
             img="src\assets\gambar\Black Clover Shounen Shoump.jfif"
             nama="Black Clover"
@@ -42,7 +42,7 @@ function Mycode(){
         />
         <MyCard
             img="src\assets\gambar\download (1).jfif"
-            nama="Black Clover"
+            nama="One Piece"
             kanji="ワンピース"
             date="20 Oktober 1999"
             mangaka=" Eiichiro Oda"
