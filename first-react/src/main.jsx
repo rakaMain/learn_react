@@ -3,6 +3,7 @@ import MyHead from './header';
 import MyCard from './div';
 import './index.css'
 import "remixicon/fonts/remixicon.css";
+import BlackClover from "./assets/gambar/Black Clover Shounen Shoump.jfif"
 
 
 function Mycode(){
@@ -11,7 +12,7 @@ function Mycode(){
       <MyHead />
       <div className=" relative justify-around ms-1 flex flex-wrap">
         <MyCard
-            img="src\assets\gambar\Black Clover Shounen Shoump.jfif"
+            img={BlackClover}
             nama="Black Clover"
             kanji="ブラッククローバー"
             date="3 Oktober 2017"

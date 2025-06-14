@@ -10,7 +10,7 @@ export default function MyCardy(props){
             <p className=" font-semibold text-[8px]">{props.kanji} <span className=" text-gray-500  opacity-70 underline ms-2">see on MyAnimeList</span> </p>
             <p className=" font-extrabold text-xl mb-3">{props.nama}</p>
             <p className=" font-bold text-[10px]">{props.date}</p>
-            <p className="text-[8px] text-justify me-5">{props.desk}</p>
+            {props.desk && <p className="text-[8px] text-justify me-5">{props.desk}</p>}
             <p className=" font-semibold mt-1 text-[8px]">{props.mangaka} <span className=" text-gray-500  ms-2">{props.rating}</span> </p>
         </div>
       </div>
