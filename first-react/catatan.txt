@@ -9,6 +9,11 @@ section 1
 secion 2 data-driven
 
 1. props > menambahkan parameter seperti rest api > passing data
+2. Array map to jsx (Array.prototypr.map)
+
+
+
+
 
 
 
