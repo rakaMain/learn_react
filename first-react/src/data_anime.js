@@ -1,6 +1,6 @@
 export default [
     {
-        img : "src\assets\gambar\Black Clover Shounen Shoump.jfif",
+        img : "src/assets/gambar/Black Clover Shounen Shoump.jfif",
         nama : "Black Clover",
         kanji : "ブラッククローバー",
         date : "3 Oktober 2017",
@@ -9,7 +9,7 @@ export default [
         desk : " Di dunia sihir, Asta adalah anak tanpa kekuatan sihir, tapi bermimpi menjadi Kaisar Sihir. Bersama saingannya, Yuno, ia bertarung melawan kekuatan gelap."
     },
     {
-        img : "src/aassets/ggambar/ssakamoto days ch_ 113 color page.jfif",
+        img : "src/assets/gambar/sakamoto days ch_ 113 color page.jfif",
         nama : "Sakamoto Days",
         kanji : "サカモトデイズ",
         date : "3 juni 2025",

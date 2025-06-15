@@ -1,21 +1,25 @@
+import Card from "./div"
 import data_anime from "./data_anime" 
-
-
 
 
 export default function MyCardy(){
   const dataAnime = data_anime.map(function(data){
-    return (
-      
-    )
+    return <Card 
+        img = {data.img}
+        nama = {data.nama}
+        kanji = {data.kanji}
+        date = {data.date}
+        mangaka = {data.mangaka}
+        rating = {data.rating}
+        desk = {data.desk}
+    />
+
   })
 
-  const h2nama = <h2>bayu</h2>
-
   return(
-    <>
-      {namaH2}
-    </>
+    <main>
+        {dataAnime}
+    </main>
   )
 }
 
