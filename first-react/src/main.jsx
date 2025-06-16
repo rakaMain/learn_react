@@ -9,8 +9,9 @@ import BlackClover from "./assets/gambar/Black Clover Shounen Shoump.jfif"
  
 function Mycode(){
   return(
-    <div className="p-5">
+    <div className="p-5 flex justify-center gap-1.5">
       <DataAnime />
+
     </div>
   )
 }
