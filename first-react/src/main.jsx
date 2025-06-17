@@ -1,17 +1,20 @@
 import { createRoot } from "react-dom/client"
 import MyHead from './header';
-import MyCard from './div';
-import DataAnime from './api_kecil'
+
+// import MyCard from './div';
+// import DataAnime from './api_kecil'
+import MyForm from "./from";
+
 import './index.css'
 import "remixicon/fonts/remixicon.css";
-import BlackClover from "./assets/gambar/Black Clover Shounen Shoump.jfif"
+
 
  
 function Mycode(){
   return(
-    <div className="p-5 flex justify-center gap-1.5">
-      <DataAnime />
-
+    <div className=" flex-col justify-center gap-1.5">
+      <MyHead />
+      <MyForm />
     </div>
   )
 }

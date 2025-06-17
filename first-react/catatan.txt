@@ -127,3 +127,22 @@ Kalau kamu ingin dibuatkan dalam format gambar infografik atau post media sosial
             desk=" Monkey D. Luffy berlayar untuk menjadi Raja Bajak Laut, mencari harta karun legendaris “One Piece”, sambil membentuk kru dan menghadapi berbagai musuh kuat."
         
  
+
+ -----------------------recap section 2
+ 01 why reusability is important
+ 02 props [paramter function in react]
+ 03 Creating component from an array of data
+ 
+
+ ----------------------- section 3
+ membuat interaktif web in react
+ 01 static websites
+ 02 Reusable component
+ |
+ |
+ | static web pages = read only like [blogs][news sites][etc]
+ | Dynamic Web Apps 01 read and wrie, display your data [bank website][Airbnb][eCommerce sites]
+
+
+ projek = Cheff Claude
+
