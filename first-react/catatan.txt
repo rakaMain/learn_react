@@ -146,3 +146,13 @@ Kalau kamu ingin dibuatkan dalam format gambar infografik atau post media sosial
 
  projek = Cheff Claude
 
+| props and state
+|
+| props sama kayak parametert di function 
+nunmber(2, 5)
+
+| satte refers any value, funtion of state. re render if  ada yang baru aray state value.
+< MyBlog one="2" />
+
+lokal varible tidak akan render
+react.useState() 

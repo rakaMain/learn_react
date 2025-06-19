@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client"
 import MyHead from './header';
+import React from 'react'
 
 // import MyCard from './div';
 // import DataAnime from './api_kecil'

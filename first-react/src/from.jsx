@@ -1,11 +1,12 @@
 import './index.css'
+import React from 'react'
 
 export default function MyForm(){
 
-  const ingredient = ["Chicken", "Oregano", "Tomatoes"]
+  const [ingredient, setiIngredient] = React.useState(["Chicken", "Oregano", "Tomatoes"])
 
   const ListInggredient = ingredient.map( n => (
-    <li className=" text-[13px]  self-start" key={n}>-- {n}</li>
+    <li className=" text-[13px] text-black self-start" key={n}><i className='ri-price-tag-3-fill me-1'></i>{n}</li>
   ))
   
 
@@ -14,9 +15,8 @@ export default function MyForm(){
     const formData = new FormData(event.currentTarget)
     const newIngredient = formData.get("ingredient_form")
     ingredient.push(newIngredient)
+    setiIngredient(ingredient)
     console.log(ingredient)
-
-
   }
 
   return(
