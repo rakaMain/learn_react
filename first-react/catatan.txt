@@ -156,3 +156,11 @@ nunmber(2, 5)
 
 lokal varible tidak akan render
 react.useState() 
+
+dalam use.state jangan memodifikasi yang lama 
+
+angka = angka + 1 // salah karena ini memodifikasi
+
+angka + 1 // yang benar bukan memodikasi tapi menambahkan hasil dari yang lama
+
+| ternary option in react
