@@ -14,9 +14,9 @@ export default function MyForm(){
     event.preventDefault()
     const formData = new FormData(event.currentTarget)
     const newIngredient = formData.get("ingredient_form")
-    ingredient.push(newIngredient)
-    setiIngredient(ingredient)
-    console.log(ingredient)
+    newIng = ingredient.push(newIngredient)
+    setiIngredient(newIng)
+    console.log(newIng)
   }
 
   return(
