@@ -14,7 +14,6 @@ import "remixicon/fonts/remixicon.css";
 function Mycode(){
   return(
     <div className=" flex-col justify-center gap-1.5">
-      <MyHead />
       <MyForm />
     </div>
   )
