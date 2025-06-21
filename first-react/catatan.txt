@@ -164,3 +164,5 @@ angka = angka + 1 // salah karena ini memodifikasi
 angka + 1 // yang benar bukan memodikasi tapi menambahkan hasil dari yang lama
 
 | ternary option in react
+
+complake state object
