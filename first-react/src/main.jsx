@@ -27,8 +27,9 @@ function Mycode(){
     const email = formData.get('email')
     const pass = formData.get('password')
     const Employment = formData.get('employment')
+    const distraksi = formData.getAll('distraksi')
     
-    console.log(`${email} ,${pass}, ${Employment}`)
+    console.log(` ${distraksi}`)
   }
   return(
     <div className="w-full container h-auto pt-6">
@@ -60,6 +61,21 @@ function Mycode(){
               Federasi
             </label>
           </fieldset>
+
+           <fieldset className="mt-4 w-64 p-2 rounded-md border-black border">
+            <legend>distraksi</legend>
+            <label className=" me-3 mt-4" htmlFor="">
+              <input className="me-2" type="checkbox" name="distraksi" value='Chapcta1' />
+              Chapcta
+            </label>
+            <label className=" mt-4" htmlFor="">
+              <input className="me-2" type="checkbox" name="distraksi" value='Federasi1'/>
+              Federasi
+            </label>
+  
+          </fieldset>
+
+          
 
           <button className=" border-2 rounded-xl my-5 text-sm p-2 hover:bg-black hover:text-white "> submit</button>
 
